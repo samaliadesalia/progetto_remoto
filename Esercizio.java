@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 public class triangoloEquilatero extends Application {
 
 	Label lAlejandro=new Label("Alejandro romero ordonez sei bellissimo, baciamoci");
-	Label lmaialino=new Label("Menichetti miaialino polacco")
+	Label lmaialino=new Label("Menichetti maialino polacco")
 	TextField tLato=new TextField();
 	 TextField tAltezza= new TextField();
 	 Label lRisultato=new Label();
@@ -41,14 +41,8 @@ public class triangoloEquilatero extends Application {
 				
 		
 	}
-	public void perimetro() {
-		double perimetro;
-		double lato= Integer.parseInt(tLato.getText());	
-		String risposta="";
-		
-		perimetro= (lato*3);
-		risposta=""+perimetro;
-		lRisultato.setText(risposta);	
+	public void AleG() {
+		lRisultato.setText("Alejandro ti amo");	
 	}
 	public void area() {
 		double area;
